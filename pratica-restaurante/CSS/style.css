@@ -1,0 +1,25 @@
+body{
+    background-color: aliceblue;
+    width: 960px;
+}
+
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bolder;
+    border-bottom: 1px;
+    border: 1px;
+    box-shadow: 20px;
+}
+
+main nav{
+    width: 300px;
+    float: left;
+    padding: 15px;
+}
+
+footer img{
+    position: relative;
+
+
+
+}
