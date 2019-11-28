@@ -1,20 +1,52 @@
 body{
     background-color: aliceblue;
     width: 960px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 
 header{
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
     font-weight: bolder;
     border-bottom: 1px;
     border: 1px;
     box-shadow: 20px;
 }
 
-main nav{
+nav ul{
     width: 300px;
     float: left;
     padding: 15px;
+    list-style: none;
+}
+
+div {
+    display: inline-block;
+    float: right;
+    border: 1px black solid;
+}   
+
+
+.entradas{
+    font-weight: normal;
+    width: 610px;
+    float: right;
+    padding: 15px;
+    border-left: 1px;
+}
+
+.pratos_principais{
+    font-weight: normal;
+    width: 610px;
+    float: right;
+    padding: 15px;
+    border-left: 1px;
+}
+
+.sobremesas{
+    font-weight: normal;
+    width: 610px;
+    float: right;
+    padding: 15px;
+    border-left: 1px;
 }
 
 footer img{
